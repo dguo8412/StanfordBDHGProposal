@@ -1,0 +1,49 @@
+%
+% This source file is part of the Stanford Biodesign Digital Health Group organization
+%
+% SPDX-FileCopyrightText: 2023 Stanford University and the project authors (see CONTRIBUTORS.md)
+%
+% SPDX-License-Identifier: MIT
+%
+
+\begin{titlepage}
+
+% Biodesign Header
+\begin{textblock*}{\paperwidth - \coverborderleft}(\coverborderleft, 3.2cm)	\includegraphics[width=\paperwidth - \coverborderleft - \coverborderleft]{Images/Stanford/BiodesignHeader.png}
+\end{textblock*}
+
+% Stanford Logo
+\begin{textblock*}{3.47cm}[1,0](\paperwidth, 1.5cm)
+	\includegraphics[width=1.5cm]{Images/Stanford/Stanford.png}
+\end{textblock*}
+
+% Biodesign Logo
+\begin{textblock*}{\paperwidth - \coverborderleft}(\coverborderleft, 1.8cm)
+	\includegraphics[width=5cm]{Images/Stanford/Biodesign.png}
+\end{textblock*}
+
+% Title
+\begin{textblock*}{\paperwidth - \coverborderleft - \coverborderleft}(\coverborderleft, 6.5cm)
+	\raggedright
+	{\sffamily \Large \worktype}\\
+	{\sffamily \huge \proposalTitle \par}
+\end{textblock*}
+
+% Author, Supervisor, and more ...
+\begin{textblock*}{\paperwidth - \coverborderleft - 2cm}(\coverborderleft, \paperheight - 5cm)
+	\begin{tabular}{l l}
+		\sffamily Author: & \sffamily \authorname \\
+		\sffamily Supervisor: & \sffamily \supervisor \\
+		\ifdefempty{\advisors}{}{\sffamily Advisors: & \sffamily \advisors \\}
+			\sffamily Submission Date: & \sffamily \submissionDate
+	\end{tabular}
+\end{textblock*}
+
+~\\
+
+\end{titlepage}
+
+
+
+
+
